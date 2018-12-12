@@ -1,17 +1,17 @@
 # 개발 환경 설정
 
-이 튜토리얼에서 rholang snippet을 실행하려면, 당신은 어떤 종류의 개발 환경이 필요하다. 이것은 rholang 개발 도구나 스택에 대한 완벽한 지침은 아니다. 오히려, 그것은 여러분을 시작하기 위한 몇 가지 일반적인 기본 개발 환경을 보여준다.
+이 튜토리얼에서 rholang snippet을 실행하려면, 당신은 개발 환경이 필요하다. 이것은 rholang 개발 도구나 스택에 대한 완벽한 지침은 아니고 여러분을 시작하는데 도움을 주기 위한 몇 가지 일반적인 기본 개발 환경을 보여준다.
 
 ## RChain 클라우드
 RChain 커뮤니티의 구성원들은 공개 웹 기반 [온라인 rholang transver] (http://rchain.cloud) ([mmir]) (https://rchain cloud)을 제공한다. inblock.io)). 이 도구는 시작하는 가장 쉬운 방법이며 소프트웨어를 설치할 필요가 없다.
 
 ## Cryptofex IDE
-Pyrofex는 [cryptofex](https://cryptofex.io/).이라 불리는 유망한 통합 개발 환경을 개발하고 있다. Cryptofex는 기본적으로 창, Mac 및 리눅스/에서 실행된다. 그것은 rholang 구문 강조를 제공하며 rholang 코드를 내부적으로 또는 실행 중인 RNode로 평가할 수 있다. IDE는 또한 외래 개발을 지원한다.
+Pyrofex는 [cryptofex](https://cryptofex.io/)이라 불리는 유망한 통합 개발 환경을 개발하고 있다. Cryptofex는 기본적으로 창, Mac 및 리눅스/에서 실행된다. 그것은 rholang 구문 강조를 제공하며 rholang 코드를 내부적으로 또는 실행 중인 RNode로 평가할 수 있다. IDE는 또한 Ethereum 개발을 지원한다.
 
-경고: 2018년 10월 현재 Cryptofex는 구문 오류가 발생할 때 올바른 라인 번호를 보고하지 않는다. 이것은 꽤 좌절할 수 있다.
+경고: 2018년 10월 현재 Cryptofex는 구문 오류가 발생할 때 올바른 라인 번호를 보고하지 않는다. 이 문제때문에 꽤 힘들수 있다.
 
 ## 로컬 노드
-rholang 코드를 실행하기 위해 시도하고 참된 방법은 당신의 지역 RNode를 시작하고 그것의 rholang 통역기를 사용하는 것이다. 먼저, 플랫폼에 대해 [ RNode](https://rchain.atlassian.net/wiki/spaces/CORE/pages/428376065/User+guide+for+running+RNode)을(를) 설치해야 한다.
+rholang 코드를 실행하기 위해 시도되었고 옳은 방법은 당신의 지역 RNode를 시작하고 그것의 rholang 번역기를 사용하는 것이다. 먼저, 플랫폼에 대해 [ RNode](https://rchain.atlassian.net/wiki/spaces/CORE/pages/428376065/User+guide+for+running+RNode)을(를) 설치해야 한다.
 
 초보 학습자의 경우 [AWS](https://blog.rchain.coop/running-rnode-0-5-3-on-amazon-ec2/) 또는 [Docker](https://blog.rchain.coop/running-rnodev-0-6-x-with-docker/).을 사용하여 노드를 설정하는 단계별 가이드를 참조하십시오.
 
